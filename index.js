@@ -1,7 +1,7 @@
 // Replace these values with your User Pool ID and App Client ID
 var poolData = {
-    UserPoolId: 'YOUR_USER_POOL_ID',
-    ClientId: 'YOUR_APP_CLIENT_ID'
+    UserPoolId: 'us-east-1_KY738HSs8',
+    ClientId: '2hsiqduan0qc7lgj40lqi1l36a'
 };
 var userPool = new AmazonCognitoIdentity.CognitoUserPool(poolData);
 
