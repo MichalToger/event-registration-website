@@ -4,10 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event Registration</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aws-sdk/2.1045.0/aws-sdk.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/amazon-cognito-identity-js/5.0.3/amazon-cognito-identity.min.js"></script>
+    <script src="index.js" defer></script>
 </head>
 <body>
     <h1>Welcome to the Event Registration System</h1>
     <p>Here, you can register for various events.</p>
-    <!-- We'll add more functionalities as we progress -->
+
+    <h2>Register</h2>
+    <form id="registrationForm">
+        Username: <input type="text" id="registerUsername"><br>
+        Email: <input type="text" id="registerEmail"><br>
+        Password: <input type="password" id="registerPassword"><br>
+        <input type="submit" value="Register">
+    </form>
+
+    <h2>Login</h2>
+    <form id="loginForm">
+        Username: <input type="text" id="loginUsername"><br>
+        Password: <input type="password" id="loginPassword"><br>
+        <input type="submit" value="Login">
+    </form>
 </body>
 </html>
